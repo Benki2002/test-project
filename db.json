@@ -1,0 +1,62 @@
+{
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "supplier1",
+      "address": "typicode",
+      "facebook": "",
+      "instagram": "",
+      "information": "",
+      "type": "",
+      "state": "",
+      "daira": "",
+      " baladya": "",
+      "phoneNumber": {
+        "countryCode": "",
+        "number": ""
+      }
+    },
+    {
+      "id": 2,
+      "name": "supplier2",
+      "address": "typicode",
+      "facebook": "",
+      "instagram": "",
+      "information": "",
+      "type": "",
+      "state": "",
+      "daira": "",
+      " baladya": "",
+      "phoneNumber": {
+        "countryCode": "",
+        "number": ""
+      }
+    },
+    {
+      "id": 3,
+      "name": "supplier3",
+      "address": "typicode",
+      "facebook": "",
+      "instagram": "",
+      "information": "",
+      "type": "",
+      "state": "",
+      "daira": "",
+      " baladya": "",
+      "phoneNumber": {
+        "countryCode": "",
+        "number": ""
+      }
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
