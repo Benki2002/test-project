@@ -5,23 +5,19 @@ import { EditProductComponent } from './edit-product/edit-product.component';
 import { AddProductComponent } from './add-product/add-product.component';
 import { ViewProductComponent } from './view-product/view-product.component';
 
-
-
 @NgModule({
   declarations: [
     ListProductsComponent,
     EditProductComponent,
     AddProductComponent,
-    ViewProductComponent
+    ViewProductComponent,
   ],
-  imports: [
-    CommonModule
-  ],
+  imports: [CommonModule],
   exports: [
     ListProductsComponent,
     EditProductComponent,
     AddProductComponent,
-    ViewProductComponent
-  ]
+    ViewProductComponent,
+  ],
 })
-export class ProductsModule { }
+export class ProductsModule {}

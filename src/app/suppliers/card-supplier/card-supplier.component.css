@@ -1,0 +1,22 @@
+.card {
+  flex-basis: 300px;
+  margin: 10px;
+  background-color: #9babb8;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cards-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+.location {
+  margin: 0px;
+}
+.card-toolbar-icon {
+  padding: 0px;
+}

@@ -1,0 +1,104 @@
+<p>add-supplier works!</p>
+<form action="submit" class="body">
+  <div>
+    <mat-form-field class="input">
+      <mat-label>Supplier's name</mat-label>
+      <input matInput />
+    </mat-form-field>
+  </div>
+
+  <div>
+    <mat-form-field class="input">
+      <mat-label>Address</mat-label>
+      <textarea matInput></textarea>
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field class="input">
+      <mat-label>FaceBook</mat-label>
+      <input type="url" matInput />
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field class="input">
+      <mat-label>Instagram</mat-label>
+      <input type="url" matInput />
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field class="input">
+      <mat-label>Add information</mat-label>
+      <textarea matInput></textarea>
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field class="input">
+      <mat-label> Supplier Type</mat-label>
+      <mat-select name="supplierType">
+        <mat-option
+          *ngFor="let supplierType of supplierTypes"
+          [value]="supplierType.value"
+        >
+          {{ supplierType.value }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field class="input">
+      <mat-label>Supplier's State</mat-label>
+      <mat-select name="supplierState">
+        <mat-option
+          *ngFor="let supplierState of States"
+          [value]="supplierState.value"
+        >
+          {{ supplierState.value }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field class="input">
+      <mat-label>Supplier's Daira</mat-label>
+      <mat-select name="supplierDaira">
+        <mat-option
+          *ngFor="let supplierDaira of Daira"
+          [value]="supplierDaira.value"
+        >
+          {{ supplierDaira.value }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field class="input">
+      <mat-label>Supplier's baladia</mat-label>
+      <mat-select name="supplierbaladia">
+        <mat-option
+          *ngFor="let supplierbaladia of baladia"
+          [value]="supplierbaladia.value"
+        >
+          {{ supplierbaladia.value }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class="input phoneNumber">
+    <mat-form-field class="phoneInput">
+      <mat-label>Country Code</mat-label>
+      <mat-select name="countryCode">
+        <mat-option
+          *ngFor="let countryCode of countryCodes"
+          [value]="countryCode.value"
+        >
+          {{ countryCode.value }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field class="phoneInput">
+      <mat-label>Telephone</mat-label>
+      <input type="tel" matInput />
+      <mat-icon matSuffix>mode_edit</mat-icon>
+    </mat-form-field>
+  </div>
+</form>
